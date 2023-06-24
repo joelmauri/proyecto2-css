@@ -1,0 +1,30 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-container3 > div{
+    height: 50vh;
+    width: 25vw;
+    margin: 15px;
+    padding: 15px;
+   border: 2px solid black;
+
+}
+.Plano{
+    background-color: aqua;
+    font-size: 19px;
+}
+.Gradiente{
+    background: linear-gradient(to right, blue, rgb(129, 26, 129), black);
+    font-size: 19px;
+
+    
+}
+.Imagen{
+    background-image: url(/assents/img/cielo.avif);
+    
+    font-size: 19px;
+}
